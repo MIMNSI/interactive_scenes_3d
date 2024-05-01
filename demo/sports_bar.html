@@ -31,11 +31,11 @@
   <script type="module">
     import * as GaussianSplats3D from '@mkkellogg/gaussian-splats-3d';
     const viewer = new GaussianSplats3D.Viewer({
-        'cameraUp': [0, -1, -1.0],
-        'initialCameraPosition': [-3.3816, 1.96931, -1.71890],
-        'initialCameraLookAt': [-0.04979, 1.37519, 1.13443]
+        'cameraUp': [0.00000, -1.00000, 0.00000],
+        'initialCameraPosition': [1.69470, -1.52585, 0.50571],
+        'initialCameraLookAt': [1.04353, -0.94270, 1.72470]
     });
-    let path = 'assets/data/sports_bar/converted_file';
+    let path = 'assets/data/sports_bar/sports_bar_aligned';
     path += isMobile() ? '.ksplat' : '.ksplat';
     viewer.addSplatScene(path, {
       'streamView': true
