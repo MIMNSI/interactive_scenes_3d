@@ -36,8 +36,8 @@
         'initialCameraPosition': [0.23281, -2.33890, -2.54968],
         'initialCameraLookAt': [0.24453, -1.37878, -0.33682],
     });
-    let path = 'assets/data/elephant/point_cloud';
-    path += isMobile() ? '.ply' : '.ply';
+    let path = 'assets/data/elephant/elephant';
+    path += isMobile() ? '.ksplat' : '.ksplat';
     viewer.addSplatScene(path, {
       'streamView': true
     })
